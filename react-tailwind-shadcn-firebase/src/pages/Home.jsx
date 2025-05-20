@@ -9,8 +9,8 @@ const Home = () => {
 
       <div className='flex flex-col items-center justify-center w-full'>
         <div>
-          For firebase authentication to work, create a new firebase project and paste all the config keys to 
-          <span className='text-blue-500 text-2xl'>&apos;.env.example&apos;</span> file
+          First copy-paste contents of file '.env.example' into '.env'.For firebase authentication to work, create a new firebase project and paste all the config keys to 
+          <span className='text-blue-500 text-2xl'>&apos;.env&apos;</span> file, 
         </div>
         <div>
           Dont forget to provision your firestore database in your project for authentication to work well
@@ -18,8 +18,8 @@ const Home = () => {
         <div>
           First add config keys, then website will work
         </div>
+        <div>Also, add .env to .gitignore</div>
       </div>
-      <div>Also, add .env to .gitignore</div>
     </div>
   )
 }
